@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 'SabisMix';
+    src: url('Blank River.ttf') format('truetype');
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.header-control{
+    height: 20vh;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, #162565, #f72d93);
+    padding: 35px 0px;
+    width: 100%;
+}
+#header-img{
+    width: 7%;
+}
+.nav-bar__lista{
+    display: flex;
+}
+.nav-link{
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: white;
+    text-decoration: none;
+}
+.nav-link:hover{
+    border-bottom: 3px solid white;
+    padding-bottom: 7px;
+}
+.custom-shape-divider-top-1642714017 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.img-show{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.figure-cyborg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.cyborg-img{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+figcaption{
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+.anunciacao{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #162565;
+}
+/* .anunciacao__box{
+    width: 60%;
+    height: 60%;
+    padding: 10px;
+    background: linear-gradient(to bottom, #162565, #f72d93);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.5rem;
+    color:white;
+    font-weight: bold;
+    line-height: 80px;
+} */
+.SabisMix-logo{
+    font-family: 'SabisMix';
+    font-weight: normal;
+    letter-spacing: 5px;
+    font-size: 7rem;
+    background: -webkit-linear-gradient(#162565, #f72d93);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.SabisMix-texto_normal{
+    font-family: 'SabisMix';
+    font-weight: bold;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+#sobre{
+    height: 100vh;
+    width: 100%;
+    border-top: 5px groove #07dfb2;
+    border-bottom: 5px groove #07dfb2;;
+    display: flex;
+}
+.sobre__descricao{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.sobre__descricao___box{
+    width: 70%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sobre__descricao___box____paragrafo{
+    font-size: 1.5rem;
+    text-align: justify;
+    border-bottom: 5px double #162565;
+    padding: 50px 0px;
+}
+.titulos{
+    font-size: 3.5rem;
+    color: #162565;
+    font-weight: bold;
+    border-bottom: 5px double #07dfb2;
+    border-top: 5px double #bb84b3;
+    padding: 50px 0px;
+}
+#evento{
+    height: 150vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+.data, .gastroparty, .video{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.data__texto, .gastroparty__texto, .video__texto{
+    width: 40%;
+    height: 100%;
+    background-color: #0adcb1;
+}
+.video__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video__texto___titulo____destaque{
+    color: #162565;
+}
+.data__texto, .video__texto{
+    border-right: 6px dashed #162565;
+}
+.gastroparty__texto{
+    border-left: 6px dashed #162565;
+}
+.data__img, .gastroparty__img, .video__video{
+    width: 60%;
+    height: 100%;
+    background-color: blueviolet;
+}
+.data__img{
+    background: url('img/villa-mix-festival-2021.jpg')center / cover no-repeat;
+}
+.data__texto___paragrafo, .gastroparty__texto___paragrafo, .video__texto___paragrafo{
+    color: white;
+    font-size: 1.7rem;
+    text-align: justify;
+    padding: 0px 30px 20px 30px;
+}
+.data__texto___titulo, .gastroparty__texto___titulo, .video__texto___titulo{
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 30px 40px;
+}
+.gastroparty__img{
+    background: url('img/food.jpg')center / cover no-repeat;
+}
+/*-------------------- CSS PACOTES -------------------- */
+#pacotes{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.pacotes__enunciado{
+    height: 30%;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px dashed #0adcb1;
+}
+.pacotes__ingressos{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.pacotes__enunciado___titulo{
+    font-size: 3.5rem;
+    color: #162565;
+    font-weight: bold;
+    text-align: center;
+    line-height: 85px;
+}
+.pacotes__enunciado___titulo____destaque{
+    font-family: 'SabisMix';
+    font-size: 6rem;
+    letter-spacing: 7px;
+}
+.card-ingresso{
+    display: grid;
+    width: 30%;
+    height: 90%;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+        "titulo"
+        "descricao"
+        "botao";
+    background: #68538a;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.card-ingresso___titulo{
+    grid-area: titulo;
+    border-bottom: 4px dashed white;
+    font-size: 3.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-ingresso___descricao{
+    grid-area: descricao;
+    font-size: 1.7rem;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+.card-ingresso___botao{
+    grid-area: botao;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.card-ingresso___botao____link{
+    font-size: 1.5rem;
+    background: white;
+    color: #162565;
+    padding: 20px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.card-ingresso___botao____link:hover{
+    background: #e1dce8;
+}
+.rodapé{
+    background: linear-gradient(to right, #152564, #3d3774);
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.redes-form{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.redes-sociais, .formulario{
+    height: 100%;
+    width: 50%;
+}

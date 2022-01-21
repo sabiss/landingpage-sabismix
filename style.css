@@ -365,3 +365,93 @@ figcaption{
 .copyright p {
     padding: 15px 0px;
 }
+/*RESPONSIVIDADE*/
+@media only screen and (max-width:480px){
+    #header{
+        flex-direction: column;
+    }
+    .logo-box{
+        margin-bottom: 20px;
+    }
+    .home{
+        flex-direction: column-reverse;
+    }
+    .anunciacao, .img-show{
+        font-size: 3rem;
+        width: 100%;
+        height: 50%;
+    }
+    
+    .SabisMix-logo{
+        font-size: 5rem;
+    }
+    .cyborg-img{
+        width: 100%;
+        align-items: center;
+    }
+    #sobre{
+        flex-direction: column;
+        height: 170vh;
+    }
+    .titulos{
+        font-size: 3rem;
+        padding: 20px 0px;
+    }
+    .sobre__descricao{
+        width: 100%;
+        height: 50%;
+    }
+    .sobre__descricao___box____paragrafo{
+        padding: 10px 0px ;
+    }
+    .cyborg-img-responsive{
+        width: 120%;
+    }
+    #evento{
+        height: 500vh;
+    }
+    .data, .gastroparty, .video{
+        flex-direction: column;
+        height: 33%;
+        
+    }
+    .data__texto, .gastroparty__texto, .video__texto, .data__img, .gastroparty__img, .video__video{
+        width: 100%;
+        height: 60%;
+        border-top: 5px dashed #162565;
+        border-left: none;
+        border-right: none;
+    }
+    .data__img, .gastroparty__img, .video__video{
+        height: 40%;
+        border-top: 5px dashed white;
+        border-bottom: 5px dashed white;
+    }
+    #pacotes{
+        height: auto;
+    }
+    .pacotes__ingressos{
+        flex-direction: column;
+        height: auto;
+    }
+    .card-ingresso{
+        width: 90%;
+        height: 30%;
+        margin: 20px 0px;
+    }
+    .redes-form{
+        flex-direction: column-reverse;
+    }
+    .formulario__label h4{
+        text-align: center;
+    }
+    .formulario__label___input{
+        width: 80%;
+    }
+    #submit{
+        margin-top: 30px;
+        width: 35%;
+    }
+    
+
+}

@@ -366,12 +366,15 @@ figcaption{
     padding: 15px 0px;
 }
 /*RESPONSIVIDADE*/
-@media only screen and (max-width:480px){
+@media only screen and (max-width:750px){
     #header{
         flex-direction: column;
     }
     .logo-box{
         margin-bottom: 20px;
+    }
+    #nav-bar{
+        display: none;
     }
     .home{
         flex-direction: column-reverse;
@@ -386,7 +389,7 @@ figcaption{
         font-size: 5rem;
     }
     .cyborg-img{
-        width: 100%;
+        width: 270px;
         align-items: center;
     }
     #sobre{
@@ -401,11 +404,14 @@ figcaption{
         width: 100%;
         height: 50%;
     }
+    .sobre__descricao___box{
+        width: 80%;
+    }
     .sobre__descricao___box____paragrafo{
         padding: 10px 0px ;
     }
     .cyborg-img-responsive{
-        width: 120%;
+        width: 310px;
     }
     #evento{
         height: 500vh;
@@ -421,6 +427,9 @@ figcaption{
         border-top: 5px dashed #162565;
         border-left: none;
         border-right: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .data__img, .gastroparty__img, .video__video{
         height: 40%;
@@ -434,10 +443,19 @@ figcaption{
         flex-direction: column;
         height: auto;
     }
+    .pacotes__enunciado___titulo{
+        font-size: 2.5rem;
+    }
     .card-ingresso{
         width: 90%;
-        height: 30%;
+        height: 500px;
         margin: 20px 0px;
+    }
+    .data__img{
+        background: url('img/party-responsive.jpg') center / cover no-repeat;
+    }
+    .gastroparty__img{
+        background: url('img/food-responsive.jpg') center / cover no-repeat;
     }
     .redes-form{
         flex-direction: column-reverse;
@@ -452,6 +470,93 @@ figcaption{
         margin-top: 30px;
         width: 35%;
     }
-    
-
+}
+@media only screen and (min-width: 751px) and (max-width:1279px){
+    .anunciacao{
+        font-size:4rem;
+    }
+    .SabisMix-logo{
+        font-size: 5rem;
+    }
+    .cyborg-img-responsive{
+        width: 370px;
+    }
+    .data__texto___paragrafo, .gastroparty__texto___paragrafo, .video__texto___paragrafo{
+        font-size: 1.2rem;
+    }
+    .pacotes__enunciado___titulo{
+        font-size: 2.5rem;
+    }
+    .video__video{
+        height: 90%;
+    }
+    #pacotes{
+        height: 120vh;
+    }
+    .pacotes__ingressos{
+        padding: 20px 0px;
+    }
+    .card-ingresso___titulo{
+        font-size: 3rem;
+    }
+    .card-ingresso___descricao{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width: 1700px) and (max-width: 2000px){
+    .nav-link{
+        font-size: 1.7rem;
+    }
+    .sobre__descricao___box____paragrafo{
+        font-size: 2rem;
+    }
+    .data__texto___paragrafo, .gastroparty__texto___paragrafo, .video__texto___paragrafo{
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 2001px){
+    .logo-box h1{
+        font-size: 3.4rem;
+    }
+    .nav-link{
+        font-size: 2.1rem;
+    }
+    .anunciacao{
+        font-size: 7rem;
+    }
+    .SabisMix-logo{
+        font-size: 10rem;
+    }
+    .sobre__descricao___box____paragrafo{
+        font-size: 2.5rem;
+    }
+    .titulos{
+        font-size: 4rem;
+    }
+    .data__texto, .gastroparty__texto, .video__texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .data__texto___titulo, .gastroparty__texto___titulo, .video__texto___titulo{
+        font-size: 3rem;
+    }
+    .data__texto___paragrafo, .gastroparty__texto___paragrafo, .video__texto___paragrafo{
+        font-size: 2.3rem;
+    }
+    .card-ingresso___descricao{
+        font-size: 2.4rem;
+    }
+    .formulario__label___input{
+        width: 70%;
+        height: 45px;
+        font-size: 1.5rem;
+    }
+    #submit{
+        width: 30%;
+    }
+    .copyright{
+        font-size: 1.5rem;
+    }
 }

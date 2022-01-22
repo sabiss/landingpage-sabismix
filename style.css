@@ -394,7 +394,7 @@ figcaption{
     }
     #sobre{
         flex-direction: column;
-        height: 170vh;
+        height: 140vh;
     }
     .titulos{
         font-size: 3rem;
@@ -416,10 +416,12 @@ figcaption{
     #evento{
         height: 500vh;
     }
-    .data, .gastroparty, .video{
+    .data, .video{
         flex-direction: column;
         height: 33%;
-        
+    }
+    .gastroparty{
+        flex-direction: column-reverse;
     }
     .data__texto, .gastroparty__texto, .video__texto, .data__img, .gastroparty__img, .video__video{
         width: 100%;
